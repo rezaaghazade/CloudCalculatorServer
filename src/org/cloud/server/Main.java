@@ -10,6 +10,7 @@ public class Main {
 
         Application application=new Application();
         application.distribute(1099,"cloudCalculator",true);
+        System.out.println("Server Is UP");
 
     }
 }
