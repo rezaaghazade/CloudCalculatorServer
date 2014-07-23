@@ -1,11 +1,12 @@
 package org.cloud.server;
 
+import java.io.Serializable;
 import java.sql.*;
 
 /**
  * Created by reza on 7/23/14.
  */
-public class ConnectToDataBase {
+public class ConnectToDataBase{
 
     public static Connection connection;
     public static PreparedStatement preparedStatement;

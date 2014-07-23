@@ -7,7 +7,7 @@ import java.util.ArrayList;
 /**
  * Created by reza on 7/24/14.
  */
-public class GetFunctions extends ConnectToDataBase {
+public class GetFunctions extends ConnectToDataBase{
 
     public ResultSet personInfoResult=null;
     public ArrayList<SectionType> functionListArray=new ArrayList<SectionType>();

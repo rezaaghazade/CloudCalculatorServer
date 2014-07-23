@@ -1,11 +1,12 @@
 package org.cloud.server;
 
 import java.io.Serializable;
+import java.rmi.Remote;
 
 /**
  * Created by reza on 7/24/14.
  */
-public class SectionType implements Serializable {
+public class SectionType{
     public String returnType;
     public String funcName;
     public String argString;
