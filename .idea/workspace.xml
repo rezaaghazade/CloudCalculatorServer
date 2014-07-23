@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="252d37fd-3d4c-4f4a-9a94-3d8b370d51f3" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.ids" afterPath="$PROJECT_DIR$/.idea/dataSources.ids" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/cloud/server/ConnectToDataBase.java" afterPath="$PROJECT_DIR$/src/org/cloud/server/ConnectToDataBase.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/cloud/server/GetFunctions.java" afterPath="$PROJECT_DIR$/src/org/cloud/server/GetFunctions.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/cloud/server/SectionType.java" afterPath="$PROJECT_DIR$/src/org/cloud/server/SectionType.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/cloud/server/Mathematics.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/cloud/server/Physic.java" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="CloudCalculatorServer.iws" />
@@ -71,13 +68,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ConnectToDataBase.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/org/cloud/server/ConnectToDataBase.java">
+      <file leaf-file-name="ConnectToDataBase.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/org/cloud/database/ConnectToDataBase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="30" selection-start="145" selection-end="145" vertical-scroll-proportion="0.19077902" vertical-offset="0" max-vertical-offset="629">
+            <state line="8" column="30" selection-start="147" selection-end="147" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="540">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Mathematics.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/org/cloud/sections/Mathematics.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="13" selection-start="81" selection-end="81" vertical-scroll-proportion="0.123558484" vertical-offset="0" max-vertical-offset="607">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Physic.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/org/cloud/sections/Physic.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="18" selection-start="18" selection-end="18" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="300">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -95,25 +110,25 @@
         </entry>
       </file>
       <file leaf-file-name="Authenticity.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/org/cloud/server/Authenticity.java">
+        <entry file="file://$PROJECT_DIR$/src/org/cloud/database/Authenticity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="0" selection-start="319" selection-end="319" vertical-scroll-proportion="0.0" vertical-offset="121" max-vertical-offset="750">
+            <state line="12" column="0" selection-start="286" selection-end="286" vertical-scroll-proportion="0.0" vertical-offset="106" max-vertical-offset="735">
               <folding>
                 <element signature="imports" expanded="true" />
-                <marker date="1406150142158" expanded="true" signature="555:612" placeholder="select TYPE,..USERS..." />
+                <marker date="1406153416402" expanded="true" signature="522:579" placeholder="select TYPE,..USERS..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="GetFunctions.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/org/cloud/server/GetFunctions.java">
+        <entry file="file://$PROJECT_DIR$/src/org/cloud/database/GetFunctions.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="51" selection-start="202" selection-end="202" vertical-scroll-proportion="0.0" vertical-offset="61" max-vertical-offset="780">
+            <state line="10" column="51" selection-start="213" selection-end="213" vertical-scroll-proportion="0.0" vertical-offset="76" max-vertical-offset="795">
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#314#327#0" expanded="true" />
-                <marker date="1406153080438" expanded="true" signature="455:519" placeholder="select RETTY..FUNCTIONS..." />
+                <element signature="e#328#344#0" expanded="true" />
+                <marker date="1406153551050" expanded="true" signature="472:536" placeholder="select RETTY..FUNCTIONS..." />
               </folding>
             </state>
           </provider>
@@ -128,32 +143,32 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SectionType.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/org/cloud/server/SectionType.java">
+      <file leaf-file-name="SectionTypeDTO.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/org/cloud/dto/SectionTypeDTO.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="24" selection-start="144" selection-end="144" vertical-scroll-proportion="0.0" vertical-offset="46" max-vertical-offset="945">
+            <state line="8" column="24" selection-start="141" selection-end="141" vertical-scroll-proportion="0.0" vertical-offset="46" max-vertical-offset="945">
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#330#331#0" expanded="true" />
-                <element signature="e#363#364#0" expanded="true" />
-                <element signature="e#415#416#0" expanded="true" />
-                <element signature="e#459#460#0" expanded="true" />
-                <element signature="e#494#495#0" expanded="true" />
-                <element signature="e#525#526#0" expanded="true" />
-                <element signature="e#573#574#0" expanded="true" />
-                <element signature="e#613#614#0" expanded="true" />
-                <element signature="e#649#650#0" expanded="true" />
-                <element signature="e#681#682#0" expanded="true" />
-                <element signature="e#731#732#0" expanded="true" />
-                <element signature="e#773#774#0" expanded="true" />
-                <element signature="e#810#811#0" expanded="true" />
-                <element signature="e#842#843#0" expanded="true" />
-                <element signature="e#893#894#0" expanded="true" />
-                <element signature="e#935#936#0" expanded="true" />
-                <element signature="e#974#975#0" expanded="true" />
-                <element signature="e#1008#1009#0" expanded="true" />
-                <element signature="e#1063#1064#0" expanded="true" />
-                <element signature="e#1109#1110#0" expanded="true" />
+                <element signature="e#331#332#0" expanded="true" />
+                <element signature="e#364#365#0" expanded="true" />
+                <element signature="e#416#417#0" expanded="true" />
+                <element signature="e#460#461#0" expanded="true" />
+                <element signature="e#495#496#0" expanded="true" />
+                <element signature="e#526#527#0" expanded="true" />
+                <element signature="e#574#575#0" expanded="true" />
+                <element signature="e#614#615#0" expanded="true" />
+                <element signature="e#650#651#0" expanded="true" />
+                <element signature="e#682#683#0" expanded="true" />
+                <element signature="e#732#733#0" expanded="true" />
+                <element signature="e#774#775#0" expanded="true" />
+                <element signature="e#811#812#0" expanded="true" />
+                <element signature="e#843#844#0" expanded="true" />
+                <element signature="e#894#895#0" expanded="true" />
+                <element signature="e#936#937#0" expanded="true" />
+                <element signature="e#975#976#0" expanded="true" />
+                <element signature="e#1009#1010#0" expanded="true" />
+                <element signature="e#1064#1065#0" expanded="true" />
+                <element signature="e#1110#1111#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -167,10 +182,15 @@
     </FindUsagesManager>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="reza" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/src/org/cloud/server/ConnectToDataBase.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/org/cloud/database/ConnectToDataBase.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
@@ -184,6 +204,10 @@
         <option value="$PROJECT_DIR$/src/org/cloud/server/SectionType.java" />
         <option value="$PROJECT_DIR$/src/org/cloud/server/GetFunctions.java" />
         <option value="$PROJECT_DIR$/src/org/cloud/server/ConnectToDataBase.java" />
+        <option value="$PROJECT_DIR$/src/org/cloud/sections/Mathematics.java" />
+        <option value="$PROJECT_DIR$/src/org/cloud/sections/Physic.java" />
+        <option value="$PROJECT_DIR$/src/org/cloud/server/SectionTypeDTO.java" />
+        <option value="$PROJECT_DIR$/src/org/cloud/dto/SectionTypeDTO.java" />
       </list>
     </option>
   </component>
@@ -254,7 +278,77 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="cloud" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CloudCalculatorServer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CloudCalculatorServer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cloud" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sections" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CloudCalculatorServer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CloudCalculatorServer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cloud" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dto" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CloudCalculatorServer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CloudCalculatorServer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cloud" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="database" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -561,7 +655,7 @@
       <workItem from="1406106885959" duration="354000" />
       <workItem from="1406107250523" duration="17000" />
       <workItem from="1406107450952" duration="628000" />
-      <workItem from="1406109342302" duration="17239000" />
+      <workItem from="1406109342302" duration="17933000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit&#10;">
       <created>1406110892632</created>
@@ -583,11 +677,19 @@
       <created>1406151598023</created>
       <updated>1406151598023</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Initial commit&#10;">
+      <created>1406153094784</created>
+      <updated>1406153094784</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Initial commit&#10;">
+      <created>1406153598784</created>
+      <updated>1406153598784</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18238000" />
+    <option name="totallyTimeSpent" value="18932000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="21" width="1366" height="747" extended-state="6" />
@@ -613,7 +715,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19561933" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22205438" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.37195122" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -644,7 +746,7 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/org/cloud/server/ConnectToDataBase.java">
+    <entry file="file://$PROJECT_DIR$/src/org/cloud/database/ConnectToDataBase.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="13" selection-start="101" selection-end="101" vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="945">
           <folding>
@@ -663,13 +765,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/cloud/server/Mathematics.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="0" selection-start="93" selection-end="93" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="330">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="dbDummy://dbtable:/ae5f4158/66fbe116-2157-4f29-971a-f51f9b105a5b/finalProject..FUNCTIONS">
       <provider editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="90">
@@ -680,13 +775,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/cloud/server/Physic.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="37" selection-start="145" selection-end="153" vertical-scroll-proportion="0.22240527" vertical-offset="0" max-vertical-offset="607">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/org/cloud/server/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="0" selection-start="195" selection-end="195" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="330">
@@ -694,62 +782,76 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/cloud/server/SectionType.java">
+    <entry file="file://$PROJECT_DIR$/src/org/cloud/database/GetFunctions.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="24" selection-start="144" selection-end="144" vertical-scroll-proportion="0.0" vertical-offset="46" max-vertical-offset="945">
+        <state line="10" column="51" selection-start="213" selection-end="213" vertical-scroll-proportion="0.0" vertical-offset="76" max-vertical-offset="795">
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#330#331#0" expanded="true" />
-            <element signature="e#363#364#0" expanded="true" />
-            <element signature="e#415#416#0" expanded="true" />
-            <element signature="e#459#460#0" expanded="true" />
-            <element signature="e#494#495#0" expanded="true" />
-            <element signature="e#525#526#0" expanded="true" />
-            <element signature="e#573#574#0" expanded="true" />
-            <element signature="e#613#614#0" expanded="true" />
-            <element signature="e#649#650#0" expanded="true" />
-            <element signature="e#681#682#0" expanded="true" />
-            <element signature="e#731#732#0" expanded="true" />
-            <element signature="e#773#774#0" expanded="true" />
-            <element signature="e#810#811#0" expanded="true" />
-            <element signature="e#842#843#0" expanded="true" />
-            <element signature="e#893#894#0" expanded="true" />
-            <element signature="e#935#936#0" expanded="true" />
-            <element signature="e#974#975#0" expanded="true" />
-            <element signature="e#1008#1009#0" expanded="true" />
-            <element signature="e#1063#1064#0" expanded="true" />
-            <element signature="e#1109#1110#0" expanded="true" />
+            <element signature="e#328#344#0" expanded="true" />
+            <marker date="1406153551050" expanded="true" signature="472:536" placeholder="select RETTY..FUNCTIONS..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/cloud/server/GetFunctions.java">
+    <entry file="file://$PROJECT_DIR$/src/org/cloud/database/Authenticity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="51" selection-start="202" selection-end="202" vertical-scroll-proportion="0.0" vertical-offset="61" max-vertical-offset="780">
+        <state line="12" column="0" selection-start="286" selection-end="286" vertical-scroll-proportion="0.0" vertical-offset="106" max-vertical-offset="735">
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#314#327#0" expanded="true" />
-            <marker date="1406153080438" expanded="true" signature="455:519" placeholder="select RETTY..FUNCTIONS..." />
+            <marker date="1406153416402" expanded="true" signature="522:579" placeholder="select TYPE,..USERS..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/cloud/server/Authenticity.java">
+    <entry file="file://$PROJECT_DIR$/src/org/cloud/database/ConnectToDataBase.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="0" selection-start="319" selection-end="319" vertical-scroll-proportion="0.0" vertical-offset="121" max-vertical-offset="750">
+        <state line="8" column="30" selection-start="147" selection-end="147" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="540">
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1406150142158" expanded="true" signature="555:612" placeholder="select TYPE,..USERS..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/cloud/server/ConnectToDataBase.java">
+    <entry file="file://$PROJECT_DIR$/src/org/cloud/sections/Physic.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="30" selection-start="145" selection-end="145" vertical-scroll-proportion="0.19077902" vertical-offset="0" max-vertical-offset="629">
+        <state line="0" column="18" selection-start="18" selection-end="18" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="607">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/cloud/dto/SectionTypeDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="24" selection-start="141" selection-end="141" vertical-scroll-proportion="0.0" vertical-offset="46" max-vertical-offset="945">
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#331#332#0" expanded="true" />
+            <element signature="e#364#365#0" expanded="true" />
+            <element signature="e#416#417#0" expanded="true" />
+            <element signature="e#460#461#0" expanded="true" />
+            <element signature="e#495#496#0" expanded="true" />
+            <element signature="e#526#527#0" expanded="true" />
+            <element signature="e#574#575#0" expanded="true" />
+            <element signature="e#614#615#0" expanded="true" />
+            <element signature="e#650#651#0" expanded="true" />
+            <element signature="e#682#683#0" expanded="true" />
+            <element signature="e#732#733#0" expanded="true" />
+            <element signature="e#774#775#0" expanded="true" />
+            <element signature="e#811#812#0" expanded="true" />
+            <element signature="e#843#844#0" expanded="true" />
+            <element signature="e#894#895#0" expanded="true" />
+            <element signature="e#936#937#0" expanded="true" />
+            <element signature="e#975#976#0" expanded="true" />
+            <element signature="e#1009#1010#0" expanded="true" />
+            <element signature="e#1064#1065#0" expanded="true" />
+            <element signature="e#1110#1111#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/cloud/sections/Mathematics.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="13" selection-start="81" selection-end="81" vertical-scroll-proportion="0.123558484" vertical-offset="0" max-vertical-offset="607">
+          <folding />
         </state>
       </provider>
     </entry>
