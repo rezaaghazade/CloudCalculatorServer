@@ -7,7 +7,7 @@ import java.util.Objects;
  */
 public class Physic {
 
-    public Double circleArea(Double a)
+    public Double CircleArea(Double a)
     {
         return Math.PI*Math.pow(a,2);
     }

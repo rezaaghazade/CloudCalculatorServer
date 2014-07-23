@@ -5,11 +5,11 @@ package org.cloud.server;
  */
 public class Mathematics {
 
-    public Integer sum(Integer a,Integer b)
+    public Integer Sum(Integer a,Integer b)
     {
         return a+b;
     }
-    public Integer minus(Integer a,Integer b)
+    public Integer Minus(Integer a,Integer b)
     {
         return a-b;
     }
