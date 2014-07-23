@@ -13,7 +13,7 @@ public class ConnectToDataBase {
     public PreparedStatement preparedStatement;
     public Connection connection;
     public ResultSet personInfoResult=null;
-    ArrayList personalArray=new ArrayList<ResultSet>();
+    public ArrayList personalArray=new ArrayList<ResultSet>();
 
     public ConnectToDataBase()
     {

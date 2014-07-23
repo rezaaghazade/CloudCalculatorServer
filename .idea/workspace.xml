@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="252d37fd-3d4c-4f4a-9a94-3d8b370d51f3" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/cloud/server/ConnectToDataBase.java" afterPath="$PROJECT_DIR$/src/org/cloud/server/ConnectToDataBase.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/mysql_connector_java_5_1_9_bin.xml" afterPath="$PROJECT_DIR$/.idea/libraries/mysql_connector_java_5_1_9_bin.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/shine3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/shine3.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="CloudCalculatorServer.iws" />
@@ -69,31 +72,37 @@
       <file leaf-file-name="ConnectToDataBase.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/org/cloud/server/ConnectToDataBase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="52" column="0" selection-start="1471" selection-end="1471" vertical-scroll-proportion="0.618442" vertical-offset="391" max-vertical-offset="1020">
+            <state line="27" column="40" selection-start="677" selection-end="677" vertical-scroll-proportion="0.6438792" vertical-offset="0" max-vertical-offset="1020">
               <folding>
                 <element signature="imports" expanded="true" />
-                <marker date="1406114957388" expanded="true" signature="948:1005" placeholder="select TYPE,..USERS..." />
+                <marker date="1406119872495" expanded="true" signature="955:1012" placeholder="select TYPE,..USERS..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="finalProject.USERS" pinned="false" current="false" current-in-tab="false">
-        <entry file="dbDummy://dbtable:/ae5f4158/66fbe116-2157-4f29-971a-f51f9b105a5b/finalProject..USERS">
-          <provider editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="195">
+      <file leaf-file-name="Mathematics.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/org/cloud/server/Mathematics.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="13" selection-start="79" selection-end="79" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="330">
               <folding />
             </state>
           </provider>
-          <provider selected="true" editor-type-id="com.intellij.persistence.database.editor.DatabaseTableFileEditorProvider">
-            <state />
+        </entry>
+      </file>
+      <file leaf-file-name="Physic.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/org/cloud/server/Physic.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="13" selection-start="106" selection-end="106" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="300">
+              <folding />
+            </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="Main.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/org/cloud/server/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="19" selection-start="134" selection-end="134" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="330">
+            <state line="15" column="1" selection-start="360" selection-end="360" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="330">
               <folding />
             </state>
           </provider>
@@ -211,9 +220,10 @@
     <property name="options.searchVisible" value="true" />
     <property name="recentsLimit" value="5" />
     <property name="dynamic.classpath" value="false" />
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.0" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../LIB/ShineJ2EEFramework 3.0.1/shine3.0" />
   </component>
   <component name="RunManager" selected="Application.Main">
     <configuration default="false" name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -494,7 +504,7 @@
       <workItem from="1406106885959" duration="354000" />
       <workItem from="1406107250523" duration="17000" />
       <workItem from="1406107450952" duration="628000" />
-      <workItem from="1406109342302" duration="5638000" />
+      <workItem from="1406109342302" duration="10508000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit&#10;">
       <created>1406110892632</created>
@@ -504,18 +514,22 @@
       <created>1406114960435</created>
       <updated>1406114960435</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Initial commit&#10;">
+      <created>1406114990112</created>
+      <updated>1406114990112</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6637000" />
+    <option name="totallyTimeSpent" value="11507000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="21" width="1366" height="747" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292683" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31707317" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -533,7 +547,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21072507" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19561933" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292683" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -570,14 +584,28 @@
         <state line="9" column="13" selection-start="101" selection-end="101" vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="945">
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1406114957388" expanded="true" signature="948:1005" placeholder="select TYPE,..USERS..." />
+            <marker date="1406119872495" expanded="true" signature="955:1012" placeholder="select TYPE,..USERS..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/cloud/server/Mathematics.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="13" selection-start="79" selection-end="79" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="330">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/cloud/server/Physic.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="13" selection-start="106" selection-end="106" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="300">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="dbDummy://dbtable:/ae5f4158/66fbe116-2157-4f29-971a-f51f9b105a5b/finalProject..USERS">
       <provider editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="90">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="195">
           <folding />
         </state>
       </provider>
@@ -587,17 +615,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/org/cloud/server/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="19" selection-start="134" selection-end="134" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="330">
+        <state line="15" column="1" selection-start="360" selection-end="360" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="330">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/org/cloud/server/ConnectToDataBase.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="52" column="0" selection-start="1471" selection-end="1471" vertical-scroll-proportion="0.618442" vertical-offset="391" max-vertical-offset="1020">
+        <state line="27" column="40" selection-start="677" selection-end="677" vertical-scroll-proportion="0.6438792" vertical-offset="0" max-vertical-offset="1020">
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1406114957388" expanded="true" signature="948:1005" placeholder="select TYPE,..USERS..." />
+            <marker date="1406119872495" expanded="true" signature="955:1012" placeholder="select TYPE,..USERS..." />
           </folding>
         </state>
       </provider>
@@ -667,7 +695,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>mysql-connector-java-5.1.9-bin</last-edited>
+          <last-edited>shine3</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
