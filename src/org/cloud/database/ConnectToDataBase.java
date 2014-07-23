@@ -1,4 +1,4 @@
-package org.cloud.server;
+package org.cloud.database;
 
 import java.io.Serializable;
 import java.sql.*;

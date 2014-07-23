@@ -1,6 +1,7 @@
-package org.cloud.server;
+package org.cloud.database;
 
-import java.io.Serializable;
+import org.cloud.dto.SectionTypeDTO;
+
 import java.sql.ResultSet;
 import java.util.ArrayList;
 
@@ -10,7 +11,7 @@ import java.util.ArrayList;
 public class GetFunctions extends ConnectToDataBase{
 
     public ResultSet personInfoResult=null;
-    public ArrayList<SectionType> functionListArray=new ArrayList<SectionType>();
+    public ArrayList<SectionTypeDTO> functionListArray=new ArrayList<SectionTypeDTO>();
 
     public ArrayList GetFunctionsDetail()
     {
@@ -21,7 +22,7 @@ public class GetFunctions extends ConnectToDataBase{
             personInfoResult=preparedStatement.executeQuery();
             connection.commit();
 
-            SectionType sectionType=new SectionType();
+            SectionTypeDTO sectionType=new SectionTypeDTO();
             try {
                 while (personInfoResult.next()) {
 
