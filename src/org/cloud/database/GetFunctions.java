@@ -1,6 +1,6 @@
 package org.cloud.database;
 
-import org.cloud.dto.SectionTypeDTO;
+import org.cloud.dto.FieldTypeDTO;
 
 import java.sql.ResultSet;
 import java.util.ArrayList;
@@ -11,27 +11,27 @@ import java.util.ArrayList;
 public class GetFunctions extends ConnectToDataBase{
 
     public ResultSet personInfoResult=null;
-    public ArrayList<SectionTypeDTO> functionListArray=new ArrayList<SectionTypeDTO>();
+    public ArrayList functionListArray=new ArrayList();
 
     public ArrayList GetFunctionsDetail()
     {
-
         try {
 
-            preparedStatement=connection.prepareStatement("select RETTYPE,FUNCNAME,ARGSTR,ARGNUM,SECTIONTYPE from FUNCTIONS");
+            preparedStatement=connection.prepareStatement("select FUNCNAME,FUNCPROTOTYPE,ARGNUM,FIELDTYPE,DESCRIPTION from FUNCTIONS");
             personInfoResult=preparedStatement.executeQuery();
             connection.commit();
 
-            SectionTypeDTO sectionType=new SectionTypeDTO();
+            FieldTypeDTO sectionType=new FieldTypeDTO();
             try {
                 while (personInfoResult.next()) {
 
-                    sectionType.returnType= personInfoResult.getString(1);
-                    sectionType.funcName= personInfoResult.getString(2);
-                    sectionType.argString= personInfoResult.getString(3);
-                    sectionType.argNumber= Integer.valueOf(personInfoResult.getString(4));
-                    sectionType.sectionType= Integer.valueOf(personInfoResult.getString(5));
+                    sectionType.funcName= personInfoResult.getString(1);
+                    sectionType.funcPrototype=personInfoResult.getString(2);
+                    sectionType.argNum= Integer.valueOf(personInfoResult.getString(3));
+                    sectionType.fieldType= personInfoResult.getString(4);
+                    sectionType.description=personInfoResult.getString(5);
 
+                    System.out.println(sectionType.toString());
                     functionListArray.add(sectionType);
                 }
             } catch (Exception e){
@@ -42,6 +42,8 @@ public class GetFunctions extends ConnectToDataBase{
         {
             System.out.println("in getFunctions : "+e.getMessage());
         }
+
+        //functionListArray.add("hamidreza");
         return functionListArray;
     }
 }

@@ -8,14 +8,14 @@
     <case-sensitivity plain-identifiers="exact" quoted-identifiers="exact"/>
     <schema name="" catalog="finalProject"/>
     <table name="FUNCTIONS" schema="" catalog="finalProject" type="TABLE">
-      <column name="RETTYPE" sqlType="VARCHAR" length="30" precision="0" nullable="false" jdbcType="12"/>
       <column name="FUNCNAME" sqlType="VARCHAR" length="45" precision="0" nullable="false" jdbcType="12"/>
-      <column name="ARGSTR" sqlType="VARCHAR" length="45" precision="0" nullable="false" jdbcType="12"/>
+      <column name="FUNCPROTOTYPE" sqlType="VARCHAR" length="150" precision="0" nullable="true" jdbcType="12"/>
       <column name="ARGNUM" sqlType="INT" length="10" precision="0" nullable="false" jdbcType="4"/>
-      <column name="SECTIONTYPE" sqlType="INT" length="10" precision="0" nullable="true" jdbcType="4"/>
+      <column name="FIELDTYPE" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="DESCRIPTION" sqlType="VARCHAR" length="150" precision="0" nullable="true" jdbcType="12"/>
     </table>
     <table name="USERS" schema="" catalog="finalProject" type="TABLE">
-      <column name="ID" sqlType="INT UNSIGNED" length="10" precision="0" nullable="false" jdbcType="4"/>
+      <column name="ID" sqlType="VARCHAR" length="15" precision="0" nullable="false" jdbcType="12" def="Jyc="/>
       <column name="TYPE" sqlType="INT" length="10" precision="0" nullable="false" jdbcType="4"/>
       <column name="PASSWD" sqlType="VARCHAR" length="50" precision="0" nullable="false" jdbcType="12"/>
       <column name="NAME" sqlType="VARCHAR" length="45" precision="0" nullable="false" jdbcType="12"/>
