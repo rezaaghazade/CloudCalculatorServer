@@ -30,8 +30,7 @@ public class GetFunctions extends ConnectToDataBase{
                     sectionType.argNum= Integer.valueOf(personInfoResult.getString(3));
                     sectionType.fieldType= personInfoResult.getString(4);
                     sectionType.description=personInfoResult.getString(5);
-
-                    System.out.println(sectionType.toString());
+                    //System.out.println(sectionType.toString());
                     functionListArray.add(sectionType);
                 }
             } catch (Exception e){

@@ -1,6 +1,4 @@
-package org.cloud.sections;
-
-import java.util.Objects;
+package org.cloud.fields;
 
 /**
  * Created by reza on 7/23/14.

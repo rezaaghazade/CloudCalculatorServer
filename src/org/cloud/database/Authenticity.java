@@ -27,7 +27,7 @@ public class Authenticity extends ConnectToDataBase {
 
             if (personInfoResult.next())
             {
-                personalArray.add(personInfoResult.getString(1));
+                personalArray.add(personInfoResult.getInt( 1));
                 personalArray.add(personInfoResult.getString(2));
                 personalArray.add(personInfoResult.getString(3));
             }

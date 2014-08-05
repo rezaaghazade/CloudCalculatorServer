@@ -5,10 +5,6 @@ package org.cloud.database;
  */
 public class AddUser extends ConnectToDataBase {
 
-    public AddUser()
-    {
-
-    }
     public boolean PushUser(String id,String passwd,Integer type,String name,String family)
     {
         try {
