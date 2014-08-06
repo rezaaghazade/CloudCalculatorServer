@@ -14,6 +14,11 @@
       <column name="FIELDTYPE" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
       <column name="DESCRIPTION" sqlType="VARCHAR" length="150" precision="0" nullable="true" jdbcType="12"/>
     </table>
+    <table name="HISTORY" schema="" catalog="finalProject" type="TABLE">
+      <column name="ID" sqlType="VARCHAR" length="50" precision="0" nullable="false" jdbcType="12"/>
+      <column name="OPDATE" sqlType="VARCHAR" length="50" precision="0" nullable="false" jdbcType="12"/>
+      <column name="OPNAME" sqlType="VARCHAR" length="80" precision="0" nullable="false" jdbcType="12"/>
+    </table>
     <table name="USERS" schema="" catalog="finalProject" type="TABLE">
       <column name="ID" sqlType="VARCHAR" length="15" precision="0" nullable="false" jdbcType="12" def="Jyc="/>
       <column name="TYPE" sqlType="INT" length="10" precision="0" nullable="false" jdbcType="4"/>

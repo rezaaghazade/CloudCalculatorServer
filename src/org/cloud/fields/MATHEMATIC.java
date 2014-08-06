@@ -15,4 +15,4 @@ public class MATHEMATIC {
         System.out.println("in minus");
         return a-b;
     }
-}
+public Double Area(Double a,Double b){ return a*b; }}

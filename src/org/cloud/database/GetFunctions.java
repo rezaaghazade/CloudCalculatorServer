@@ -1,5 +1,6 @@
 package org.cloud.database;
 
+import org.cloud.connectToDatabase.ConnectToDataBase;
 import org.cloud.dto.FieldTypeDTO;
 
 import java.sql.ResultSet;
@@ -8,7 +9,7 @@ import java.util.ArrayList;
 /**
  * Created by reza on 7/24/14.
  */
-public class GetFunctions extends ConnectToDataBase{
+public class GetFunctions extends ConnectToDataBase {
 
     public ResultSet personInfoResult=null;
     public ArrayList functionListArray=new ArrayList();
