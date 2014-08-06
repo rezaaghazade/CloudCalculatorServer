@@ -2,21 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="252d37fd-3d4c-4f4a-9a94-3d8b370d51f3" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/cloud/database/AddFunctionDetail.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/cloud/database/CheckForUniqueFunc.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/cloud/compiler/ServerCompiler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/cloud/Test.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/cloud/database/WriteHistory.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/org/cloud/database/ConnectToDataBase.java" afterPath="$PROJECT_DIR$/src/org/cloud/connectToDatabase/ConnectToDataBase.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.ids" afterPath="$PROJECT_DIR$/.idea/dataSources.ids" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/cloud/database/AddFunction.java" afterPath="$PROJECT_DIR$/src/org/cloud/database/AddFunction.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/cloud/database/AddUser.java" afterPath="$PROJECT_DIR$/src/org/cloud/database/AddUser.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/cloud/database/Authenticity.java" afterPath="$PROJECT_DIR$/src/org/cloud/database/Authenticity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/cloud/database/GetFieldTypes.java" afterPath="$PROJECT_DIR$/src/org/cloud/database/GetFieldTypes.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/cloud/database/GetFunctions.java" afterPath="$PROJECT_DIR$/src/org/cloud/database/GetFunctions.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/cloud/fields/MATHEMATIC.java" afterPath="$PROJECT_DIR$/src/org/cloud/fields/MATHEMATIC.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/cloud/fields/PHYSIC.java" afterPath="$PROJECT_DIR$/src/org/cloud/fields/PHYSIC.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="CloudCalculatorServer.iws" />
@@ -728,7 +713,7 @@
       <workItem from="1407264104969" duration="2960000" />
       <workItem from="1407301532083" duration="12889000" />
       <workItem from="1407338858876" duration="8000" />
-      <workItem from="1407338926119" duration="2761000" />
+      <workItem from="1407338926119" duration="2771000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit&#10;">
       <created>1406110892632</created>
@@ -786,11 +771,15 @@
       <created>1407273528234</created>
       <updated>1407273528234</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Initial commit&#10;">
+      <created>1407341695106</created>
+      <updated>1407341695106</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="63576000" />
+    <option name="totallyTimeSpent" value="63586000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-3" width="1366" height="771" extended-state="6" />
