@@ -21,7 +21,6 @@ public class CheckForUniqueFunc extends ConnectToDataBase {
             personInfoResult=preparedStatement.executeQuery();
             connection.commit();
 
-
             //false means new function is EXIST
             if (personInfoResult.next())
                 return false;

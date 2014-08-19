@@ -5,9 +5,15 @@ package org.cloud.fields;
  */
 public class PHYSIC {
 
-    public Double CircleArea(Double a)
+    public Double CIRCLEAREA(Double a)
     {
         return Math.PI*Math.pow(a,2);
     }
+
+    public Double DENSITY(Double a)
+    {
+        return Math.PI*Math.pow(a,2);
+    }
+
 
 }

@@ -1,10 +1,12 @@
-package org.cloud.dto;
+package domain;
+
+import java.io.Serializable;
 
 /**
  * Created by reza on 7/24/14.
  */
 
-public class FieldTypeDTO {
+public class FieldTypeDTO implements Serializable{
     public String funcName;
     public Integer argNum;
     public String fieldType;

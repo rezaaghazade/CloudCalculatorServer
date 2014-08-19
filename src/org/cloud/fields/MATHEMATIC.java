@@ -5,14 +5,22 @@ package org.cloud.fields;
  */
 public class MATHEMATIC {
 
-    public Double Sum(Double a,Double b)
+    public Double SUM(Double a,Double b)
     {
         System.out.println("in sum");
         return a+b;
     }
-    public Double Minus(Double a,Double b)
+    public Double MINUS(Double a,Double b)
     {
         System.out.println("in minus");
         return a-b;
     }
-public Double Area(Double a,Double b){ return a*b; }}
+    public Double AREA(Double a,Double b)
+    {
+        return a*b;
+    }
+    public Double CONCAT(Double a,Double b)
+    {
+        return a*b;
+    }
+}

@@ -9,9 +9,6 @@ public class ServerCompiler {
 
     public boolean addMethod(String className,String func)throws Exception
     {
-        System.out.println("in Add Method..Before Inserting");
-        System.out.println(className);
-        System.out.println(func);
         JavaCompiler javaCompiler = new JavaCompiler();
 
         String path=System.getProperty("java.home");
@@ -25,7 +22,6 @@ public class ServerCompiler {
             javaCompiler.addSource("/home/reza/","bat",newPath,
                     "./out/production/CloudCalculatorServer",
                     "./src/org/cloud/fields/"+className+".java",func);
-            System.out.println("in Add Method..After Inserting");
             return true;
         }catch (Exception e)
         {
