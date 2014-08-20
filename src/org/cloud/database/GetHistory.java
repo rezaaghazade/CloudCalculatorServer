@@ -17,13 +17,17 @@ public class GetHistory extends ConnectToDataBase {
     public ArrayList<History> GetHs()
     {
         try {
+
             preparedStatement=connection.prepareStatement("select ID,OPDATE,OPNAME from finalProject.HISTORY");
+
             personInfoResult=preparedStatement.executeQuery();
             connection.commit();
 
             try {
                 while (personInfoResult.next()) {
+                    
                     History hs=new History();
+
                     hs.setID(personInfoResult.getString(1));
                     hs.setOpDate(personInfoResult.getString(2));
                     hs.setOpName(personInfoResult.getString(3));
