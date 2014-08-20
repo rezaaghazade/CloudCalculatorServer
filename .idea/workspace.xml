@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="252d37fd-3d4c-4f4a-9a94-3d8b370d51f3" name="Default" comment="Initial commit&#10;">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/cloud/Test.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/cloud/database/GetHistory.java" afterPath="$PROJECT_DIR$/src/org/cloud/database/GetHistory.java" />
+    <list default="true" id="252d37fd-3d4c-4f4a-9a94-3d8b370d51f3" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="CloudCalculatorServer.iws" />
@@ -726,7 +724,7 @@
       <workItem from="1407611487479" duration="7326000" />
       <workItem from="1407913286614" duration="606000" />
       <workItem from="1408421772975" duration="10751000" />
-      <workItem from="1408435623333" duration="3085000" />
+      <workItem from="1408435623333" duration="3096000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit&#10;">
       <created>1406110892632</created>
@@ -804,11 +802,15 @@
       <created>1408432707644</created>
       <updated>1408432707644</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Initial commit&#10;">
+      <created>1408545299953</created>
+      <updated>1408545299953</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="91538000" />
+    <option name="totallyTimeSpent" value="91549000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-3" width="1366" height="771" extended-state="6" />
