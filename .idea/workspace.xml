@@ -2,11 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="252d37fd-3d4c-4f4a-9a94-3d8b370d51f3" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/test.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/cloud/fields/MATHEMATIC.java" afterPath="$PROJECT_DIR$/src/org/cloud/fields/MATHEMATIC.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/cloud/server/Main.java" afterPath="$PROJECT_DIR$/src/org/cloud/server/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/cloud/fields/PHYSIC.java" afterPath="$PROJECT_DIR$/src/org/cloud/fields/PHYSIC.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/cloud/compiler/ServerCompiler.java" afterPath="$PROJECT_DIR$/src/org/cloud/compiler/ServerCompiler.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="CloudCalculatorServer.iws" />
@@ -828,7 +823,7 @@
       <workItem from="1408597770325" duration="2587000" />
       <workItem from="1408619708749" duration="2752000" />
       <workItem from="1408644862072" duration="7018000" />
-      <workItem from="1408726719945" duration="2743000" />
+      <workItem from="1408726719945" duration="2752000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit&#10;">
       <created>1406110892632</created>
@@ -914,15 +909,19 @@
       <created>1408545306869</created>
       <updated>1408545306869</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Initial commit&#10;">
+      <created>1408730141192</created>
+      <updated>1408730141192</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="113171000" />
+    <option name="totallyTimeSpent" value="113180000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-3" width="1366" height="771" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31610942" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
