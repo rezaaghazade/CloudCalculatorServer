@@ -9,7 +9,7 @@ public class Main {
     public static void main(String[] args)throws Exception{
 
         Application application=new Application();
-        application.distribute(1099,"cloudCalculator",true);
+        application.distribute(1099,"cloudCalculator",false);
         System.out.println("Server Is UP");
 
     }

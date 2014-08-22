@@ -7,12 +7,10 @@ public class MATHEMATIC {
 
     public Double SUM(Double a,Double b)
     {
-        System.out.println("in sum");
         return a+b;
     }
     public Double MINUS(Double a,Double b)
     {
-        System.out.println("in minus");
         return a-b;
     }
     public Double AREA(Double a,Double b)
@@ -23,4 +21,7 @@ public class MATHEMATIC {
     {
         return a*b;
     }
-}
+public Double Cube(Double a)
+    {
+        return Math.pow(a,3);
+    }}

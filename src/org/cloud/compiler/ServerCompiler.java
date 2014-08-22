@@ -1,6 +1,7 @@
 package org.cloud.compiler;
 
 import org.j2os.shine.util.JavaCompiler;
+import org.j2os.shine.util.SystemRoot;
 
 /**
  * Created by reza on 8/6/14.
@@ -15,17 +16,38 @@ public class ServerCompiler {
 
         int lenght=path.length();
 
-        String newPath = path.substring(0, lenght-3);
-        newPath+="bin/javac";
+        String javcAdd = path.substring(0, lenght-3);
+        javcAdd+="bin/javac";
 
         try {
-            javaCompiler.addSource("/home/reza/","bat",newPath,
+            /*javaCompiler.addSource("/home/reza/",
+                    "bat",
+                    newPath,
                     "./out/production/CloudCalculatorServer",
-                    "./src/org/cloud/fields/"+className+".java",func);
+                    "./src/org/cloud/fields/"+className+".java",
+                    func);*/
+
+
+            /*func="public Double Cube(Double a)\n" +
+                    "    {\n" +
+                    "        return Math.pow(a,3);\n" +
+                    "    }";
+*/
+            SystemRoot systemRoot = new SystemRoot();
+            String content;
+            content = systemRoot.getContentFile("./src/org/cloud/fields/"+className+".java");
+            content = content.substring(0, content.lastIndexOf("}")) + func +"}";
+            systemRoot.writeContentFile("./src/org/cloud/fields/"+className+".java", content);
+
+            String osCommand=javcAdd+" -d "+"./out/production/CloudCalculatorServer "+"./src/org/cloud/fields/"+className+".java";
+
+            Process process = Runtime.getRuntime().exec(osCommand);
+
+
             return true;
         }catch (Exception e)
         {
-            System.out.println(e.getMessage());
+            System.out.println("oohoho " + e.getMessage());
             return false;
         }
 

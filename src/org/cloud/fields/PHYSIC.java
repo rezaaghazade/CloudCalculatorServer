@@ -9,11 +9,8 @@ public class PHYSIC {
     {
         return Math.PI*Math.pow(a,2);
     }
-
-    public Double DENSITY(Double a)
+    public Double DENSITY(Double a,Double b)
     {
-        return Math.PI*Math.pow(a,2);
+        return a/b;
     }
-
-
 }
