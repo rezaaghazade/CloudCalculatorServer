@@ -15,7 +15,6 @@ public class GetFieldTypes extends ConnectToDataBase {
 
     public ArrayList getFieldTypes()
     {
-
         try {
 
             preparedStatement=connection.prepareStatement("select FIELDTYPE from finalProject.FUNCTIONS");

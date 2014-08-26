@@ -1,7 +1,8 @@
 package org.cloud.database;
 
+import domain.Function;
 import org.cloud.connectToDatabase.ConnectToDataBase;
-import domain.FieldTypeDTO;
+
 import java.sql.ResultSet;
 import java.util.ArrayList;
 
@@ -11,9 +12,9 @@ import java.util.ArrayList;
 public class GetFunctionsDetail extends ConnectToDataBase {
 
     public ResultSet personInfoResult=null;
-    public ArrayList<FieldTypeDTO> functionListArray=new ArrayList<FieldTypeDTO>();
+    public ArrayList<Function> functionListArray=new ArrayList<Function>();
 
-    public ArrayList<FieldTypeDTO> GetDetail()
+    public ArrayList<Function> GetDetail()
     {
         try {
 
@@ -24,15 +25,15 @@ public class GetFunctionsDetail extends ConnectToDataBase {
 
             try {
                 while (personInfoResult.next()) {
-                    FieldTypeDTO fieldTypeDto=new FieldTypeDTO();
-                    fieldTypeDto.funcName= personInfoResult.getString(1);
-                    fieldTypeDto.funcPrototype=personInfoResult.getString(2);
-                    fieldTypeDto.argNum= Integer.valueOf(personInfoResult.getString(3));
-                    fieldTypeDto.fieldType= personInfoResult.getString(4);
-                    fieldTypeDto.description=personInfoResult.getString(5);
-                    //System.out.println(fieldTypeDto.toString());
-                    functionListArray.add(fieldTypeDto);
-                    fieldTypeDto=null;
+                    Function func=new Function();
+                    func.funcName= personInfoResult.getString(1);
+                    func.funcPrototype=personInfoResult.getString(2);
+                    func.argNum= Integer.valueOf(personInfoResult.getString(3));
+                    func.fieldType= personInfoResult.getString(4);
+                    func.description=personInfoResult.getString(5);
+                    //System.out.println(func.toString());
+                    functionListArray.add(func);
+                    func=null;
                 }
             } catch (Exception e){
                 System.out.println("hi man");

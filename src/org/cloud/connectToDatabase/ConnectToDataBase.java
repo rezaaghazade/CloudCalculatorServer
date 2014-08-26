@@ -1,6 +1,5 @@
 package org.cloud.connectToDatabase;
 
-import java.io.Serializable;
 import java.sql.*;
 
 /**

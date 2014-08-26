@@ -13,4 +13,9 @@ public class PHYSIC {
     {
         return a/b;
     }
-}
+    public Double Cube(Double a)
+    {
+        return Math.pow(a,3);
+    }
+
+public Double Consecutive(Double n)    {        return ( ( n * ( n + 1 ) * ( 2*n + 1 ) ) / 6);    }}

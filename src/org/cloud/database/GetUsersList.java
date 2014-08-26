@@ -1,6 +1,5 @@
 package org.cloud.database;
 
-import domain.FieldTypeDTO;
 import domain.Users;
 import org.cloud.connectToDatabase.ConnectToDataBase;
 import java.sql.ResultSet;

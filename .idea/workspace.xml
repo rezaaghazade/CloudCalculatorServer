@@ -2,6 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="252d37fd-3d4c-4f4a-9a94-3d8b370d51f3" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/cloud/database/AddFunction.java" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/domain/FieldTypeDTO.java" afterPath="$PROJECT_DIR$/src/domain/Function.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/cloud/connectToDatabase/ConnectToDataBase.java" afterPath="$PROJECT_DIR$/src/org/cloud/connectToDatabase/ConnectToDataBase.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/cloud/database/GetFieldTypes.java" afterPath="$PROJECT_DIR$/src/org/cloud/database/GetFieldTypes.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/cloud/database/GetFunctionsDetail.java" afterPath="$PROJECT_DIR$/src/org/cloud/database/GetFunctionsDetail.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/cloud/database/GetUsersList.java" afterPath="$PROJECT_DIR$/src/org/cloud/database/GetUsersList.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/cloud/fields/MATHEMATIC.java" afterPath="$PROJECT_DIR$/src/org/cloud/fields/MATHEMATIC.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/cloud/fields/PHYSIC.java" afterPath="$PROJECT_DIR$/src/org/cloud/fields/PHYSIC.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/cloud/compiler/ServerCompiler.java" afterPath="$PROJECT_DIR$/src/org/cloud/compiler/ServerCompiler.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/test.java" afterPath="$PROJECT_DIR$/src/test/test.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="CloudCalculatorServer.iws" />
@@ -67,10 +77,30 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="MATHEMATIC.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="ServerCompiler.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/org/cloud/compiler/ServerCompiler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="58" column="64" selection-start="1931" selection-end="1931" vertical-scroll-proportion="0.0" vertical-offset="569" max-vertical-offset="1380">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MATHEMATIC.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/org/cloud/fields/MATHEMATIC.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="5" selection-start="461" selection-end="461" vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="480">
+            <state line="23" column="66" selection-start="457" selection-end="457" vertical-scroll-proportion="0.5484897" vertical-offset="0" max-vertical-offset="629">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PHYSIC.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/org/cloud/fields/PHYSIC.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="16" column="5" selection-start="293" selection-end="293" vertical-scroll-proportion="0.0" vertical-offset="21" max-vertical-offset="390">
               <folding />
             </state>
           </provider>
@@ -79,47 +109,7 @@
       <file leaf-file-name="test.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="67" selection-start="284" selection-end="1184" vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="1170">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ServerCompiler.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/org/cloud/compiler/ServerCompiler.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="2" selection-start="944" selection-end="944" vertical-scroll-proportion="0.5707472" vertical-offset="151" max-vertical-offset="1110">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="JavaCompiler.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../../LIB/ShineJ2EEFramework 3.0.1/shine3.0/src/org/j2os/shine/util/JavaCompiler.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="146" selection-start="1464" selection-end="1540" vertical-scroll-proportion="0.0" vertical-offset="259" max-vertical-offset="1050">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SystemRuntime.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../../LIB/ShineJ2EEFramework 3.0.1/shine3.0/src/org/j2os/shine/util/SystemRuntime.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="77" column="49" selection-start="2391" selection-end="2391" vertical-scroll-proportion="0.0" vertical-offset="227" max-vertical-offset="5130">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SystemRoot.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../../LIB/ShineJ2EEFramework 3.0.1/shine3.0/src/org/j2os/shine/util/SystemRoot.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="199" column="8" selection-start="5088" selection-end="5088" vertical-scroll-proportion="0.0" vertical-offset="2400" max-vertical-offset="3570">
+            <state line="33" column="72" selection-start="900" selection-end="900" vertical-scroll-proportion="0.0" vertical-offset="495" max-vertical-offset="1215">
               <folding />
             </state>
           </provider>
@@ -163,7 +153,6 @@
         <option value="$PROJECT_DIR$/src/org/cloud/database/Authenticity.java" />
         <option value="$PROJECT_DIR$/src/org/cloud/database/GetFunctions.java" />
         <option value="$PROJECT_DIR$/src/org/cloud/database/AddUser.java" />
-        <option value="$PROJECT_DIR$/src/org/cloud/database/GetFieldTypes.java" />
         <option value="$PROJECT_DIR$/src/org/cloud/compiler/Javad.java" />
         <option value="$PROJECT_DIR$/src/org/cloud/database/AddFunctionDetail.java" />
         <option value="db-console:/ae5f4158/66fbe116-2157-4f29-971a-f51f9b105a5b/" />
@@ -174,21 +163,25 @@
         <option value="$PROJECT_DIR$/src/domain/FieldTypeDTO.java" />
         <option value="$PROJECT_DIR$/src/org/cloud/database/CheckForUniqueUser.java" />
         <option value="$PROJECT_DIR$/src/org/cloud/database/ChangePassword.java" />
-        <option value="$PROJECT_DIR$/src/org/cloud/database/GetFunctionsDetail.java" />
         <option value="$PROJECT_DIR$/src/org/cloud/database/GetUsersList.java" />
         <option value="$PROJECT_DIR$/src/domain/Users.java" />
         <option value="$PROJECT_DIR$/src/org/cloud/database/GetHistory.java" />
         <option value="$PROJECT_DIR$/src/domain/History.java" />
         <option value="dbtable:/ae5f4158/66fbe116-2157-4f29-971a-f51f9b105a5b/finalProject..HISTORY" />
         <option value="$PROJECT_DIR$/src/org/cloud/server/Main.java" />
-        <option value="$PROJECT_DIR$/src/org/cloud/fields/PHYSIC.java" />
         <option value="$PROJECT_DIR$/../../LIB/ShineJ2EEFramework 3.0.1/shine3.0/src/org/j2os/shine/util/JavaCompiler.java" />
-        <option value="dbtable:/ae5f4158/66fbe116-2157-4f29-971a-f51f9b105a5b/finalProject..FUNCTIONS" />
         <option value="$PROJECT_DIR$/../../LIB/ShineJ2EEFramework 3.0.1/shine3.0/src/org/j2os/shine/util/SystemRoot.java" />
         <option value="$PROJECT_DIR$/../../LIB/ShineJ2EEFramework 3.0.1/shine3.0/src/org/j2os/shine/util/SystemRuntime.java" />
+        <option value="$PROJECT_DIR$/src/org/cloud/connectToDatabase/ConnectToDataBase.java" />
+        <option value="$PROJECT_DIR$/src/domain/Function.java" />
+        <option value="$PROJECT_DIR$/src/org/cloud/database/GetFieldTypes.java" />
+        <option value="$PROJECT_DIR$/src/org/cloud/database/GetFunctionsDetail.java" />
+        <option value="$PROJECT_DIR$/src/org/cloud/fields/PHYSIC.java" />
         <option value="$PROJECT_DIR$/src/test/test.java" />
-        <option value="$PROJECT_DIR$/src/org/cloud/fields/MATHEMATIC.java" />
+        <option value="$PROJECT_DIR$/src/org/cloud/temp/MATHEMATIC.java" />
         <option value="$PROJECT_DIR$/src/org/cloud/compiler/ServerCompiler.java" />
+        <option value="dbtable:/ae5f4158/66fbe116-2157-4f29-971a-f51f9b105a5b/finalProject..FUNCTIONS" />
+        <option value="$PROJECT_DIR$/src/org/cloud/fields/MATHEMATIC.java" />
       </list>
     </option>
   </component>
@@ -225,7 +218,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -259,6 +251,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CloudCalculatorServer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CloudCalculatorServer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cloud" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -392,6 +402,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -725,6 +736,12 @@
       <envs />
       <method />
     </configuration>
+    <configuration default="true" type="com.intellij.persistence.run.ConsoleRunConfigurationType" factoryName="Query Language Console">
+      <option name="VM_PARAMETERS" value="" />
+      <option name="USER_CFG_CLASS" />
+      <option name="CONTEXT_PROVIDER" />
+      <method />
+    </configuration>
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
       <module name="" />
       <option name="ACTIVITY_CLASS" value="" />
@@ -744,12 +761,6 @@
       <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
       <method />
     </configuration>
-    <configuration default="true" type="com.intellij.persistence.run.ConsoleRunConfigurationType" factoryName="Query Language Console">
-      <option name="VM_PARAMETERS" value="" />
-      <option name="USER_CFG_CLASS" />
-      <option name="CONTEXT_PROVIDER" />
-      <method />
-    </configuration>
     <list size="4">
       <item index="0" class="java.lang.String" itemvalue="Application.Main" />
       <item index="1" class="java.lang.String" itemvalue="Application.ServerCompiler" />
@@ -759,9 +770,9 @@
     <recent_temporary>
       <list size="4">
         <item index="0" class="java.lang.String" itemvalue="Application.Main" />
-        <item index="1" class="java.lang.String" itemvalue="Application.test" />
-        <item index="2" class="java.lang.String" itemvalue="Application.Test" />
-        <item index="3" class="java.lang.String" itemvalue="Application.ServerCompiler" />
+        <item index="1" class="java.lang.String" itemvalue="Application.ServerCompiler" />
+        <item index="2" class="java.lang.String" itemvalue="Application.test" />
+        <item index="3" class="java.lang.String" itemvalue="Application.Test" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -823,7 +834,16 @@
       <workItem from="1408597770325" duration="2587000" />
       <workItem from="1408619708749" duration="2752000" />
       <workItem from="1408644862072" duration="7018000" />
-      <workItem from="1408726719945" duration="2752000" />
+      <workItem from="1408726719945" duration="6595000" />
+      <workItem from="1408776995254" duration="377000" />
+      <workItem from="1408827652743" duration="1328000" />
+      <workItem from="1408895609707" duration="3999000" />
+      <workItem from="1408905051710" duration="87000" />
+      <workItem from="1409049506116" duration="187000" />
+      <workItem from="1409049701143" duration="646000" />
+      <workItem from="1409050910468" duration="5236000" />
+      <workItem from="1409057682894" duration="174000" />
+      <workItem from="1409059640348" duration="1749000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit&#10;">
       <created>1406110892632</created>
@@ -913,22 +933,27 @@
       <created>1408730141192</created>
       <updated>1408730141192</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Initial commit&#10;">
+      <created>1408730147589</created>
+      <updated>1408730147589</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="113180000" />
+    <option name="totallyTimeSpent" value="130806000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-3" width="1366" height="771" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31610942" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292683" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.19108762" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3246951" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24622357" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.41006097" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -942,13 +967,12 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21827795" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.42987806" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22432025" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3734756" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292683" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292683" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -990,10 +1014,7 @@
     <entry file="file://$PROJECT_DIR$/src/org/cloud/database/GetFunctionsDetail.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="33" column="23" selection-start="1196" selection-end="1196" vertical-scroll-proportion="0.0" vertical-offset="151" max-vertical-offset="780">
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#377#391#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1026,10 +1047,7 @@
     <entry file="file://$PROJECT_DIR$/src/org/cloud/database/GetFunctionsDetail.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="33" column="23" selection-start="1196" selection-end="1196" vertical-scroll-proportion="0.0" vertical-offset="151" max-vertical-offset="780">
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#377#391#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1062,10 +1080,7 @@
     <entry file="file://$PROJECT_DIR$/src/org/cloud/database/GetFunctionsDetail.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="33" column="23" selection-start="1196" selection-end="1196" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="780">
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#377#391#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1098,10 +1113,7 @@
     <entry file="file://$PROJECT_DIR$/src/org/cloud/database/GetFunctionsDetail.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="33" column="23" selection-start="1196" selection-end="1196" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="780">
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#377#391#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1125,11 +1137,11 @@
       </provider>
     </entry>
     <entry file="dbDummy://dbtable:/ae5f4158/66fbe116-2157-4f29-971a-f51f9b105a5b/finalProject..USERS">
-      <provider editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="195" />
-      </provider>
       <provider selected="true" editor-type-id="com.intellij.persistence.database.editor.DatabaseTableFileEditorProvider">
         <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="195" />
       </provider>
     </entry>
     <entry file="dbDummy://db-console:/ae5f4158/66fbe116-2157-4f29-971a-f51f9b105a5b/">
@@ -1137,228 +1149,188 @@
         <state line="0" column="139" selection-start="139" selection-end="139" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="349" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/domain/FieldTypeDTO.java">
+    <entry file="jar:///usr/local/jdk1.7.0_45/src.zip!/java/io/Serializable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="0" selection-start="820" selection-end="820" vertical-scroll-proportion="0.0" vertical-offset="227" max-vertical-offset="750">
-          <folding />
-        </state>
+        <state line="168" column="17" selection-start="7581" selection-end="7581" vertical-scroll-proportion="2.6693163" vertical-offset="496" max-vertical-offset="2295" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/cloud/database/AddFunctionDetail.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="35" selection-start="157" selection-end="157" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="540">
-          <folding />
-        </state>
+    <entry file="dbDummy://dbtable:/ae5f4158/66fbe116-2157-4f29-971a-f51f9b105a5b/finalProject..HISTORY">
+      <provider selected="true" editor-type-id="com.intellij.persistence.database.editor.DatabaseTableFileEditorProvider">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="150" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/cloud/database/ChangePassword.java">
+    <entry file="file://$PROJECT_DIR$/../../LIB/ShineJ2EEFramework 3.0.1/shine3.0/src/org/j2os/shine/util/reflect/Application.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="25" selection-start="708" selection-end="708" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="480">
-          <folding />
-        </state>
+        <state line="127" column="12" selection-start="3738" selection-end="3738" vertical-scroll-proportion="0.0" vertical-offset="1610" max-vertical-offset="4680" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/cloud/database/CheckForUniqueFunc.java">
+    <entry file="file://$PROJECT_DIR$/../../LIB/ShineJ2EEFramework 3.0.1/shine3.0/src/org/j2os/shine/util/JavaCompiler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="17" selection-start="631" selection-end="631" vertical-scroll-proportion="0.0" vertical-offset="21" max-vertical-offset="615">
-          <folding />
-        </state>
+        <state line="34" column="146" selection-start="1464" selection-end="1540" vertical-scroll-proportion="0.40746754" vertical-offset="259" max-vertical-offset="1050" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/cloud/database/CheckForUniqueUser.java">
+    <entry file="file://$PROJECT_DIR$/../../LIB/ShineJ2EEFramework 3.0.1/shine3.0/src/org/j2os/shine/util/SystemRuntime.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="45" selection-start="373" selection-end="373" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="630">
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+        <state line="77" column="49" selection-start="2391" selection-end="2391" vertical-scroll-proportion="1.1412338" vertical-offset="227" max-vertical-offset="5130" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../LIB/ShineJ2EEFramework 3.0.1/shine3.0/src/org/j2os/shine/util/SystemRoot.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="199" column="8" selection-start="5088" selection-end="5088" vertical-scroll-proportion="0.73926866" vertical-offset="2400" max-vertical-offset="3570" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/cloud/database/Authenticity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="0" selection-start="832" selection-end="832" vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="720">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/org/cloud/database/GetFieldTypes.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="0" selection-start="329" selection-end="329" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="585">
+        <state line="15" column="34" selection-start="351" selection-end="364" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="570">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/domain/Function.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="21" selection-start="100" selection-end="108" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="750">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/org/cloud/database/GetFunctionsDetail.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="18" selection-start="1322" selection-end="1322" vertical-scroll-proportion="0.8333333" vertical-offset="0" max-vertical-offset="825">
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#377#391#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/cloud/database/GetUsersList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="3" selection-start="734" selection-end="734" vertical-scroll-proportion="0.0" vertical-offset="121" max-vertical-offset="750">
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#380#387#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/cloud/database/WriteHistory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="49" selection-start="715" selection-end="715" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="570">
+        <state line="35" column="30" selection-start="784" selection-end="1304" vertical-scroll-proportion="0.0" vertical-offset="186" max-vertical-offset="780">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/domain/Users.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="5" selection-start="472" selection-end="472" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="555">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/cloud/database/GetHistory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="20" selection-start="747" selection-end="747" vertical-scroll-proportion="0.0" vertical-offset="224" max-vertical-offset="840">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///usr/local/jdk1.7.0_45/src.zip!/java/io/Serializable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="168" column="17" selection-start="7581" selection-end="7581" vertical-scroll-proportion="2.6693163" vertical-offset="496" max-vertical-offset="2295" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/domain/History.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="46" selection-start="132" selection-end="132" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="450">
-          <folding>
-            <element signature="e#234#235#0" expanded="false" />
-            <element signature="e#259#260#0" expanded="false" />
-            <element signature="e#295#296#0" expanded="false" />
-            <element signature="e#323#324#0" expanded="false" />
-            <element signature="e#356#357#0" expanded="false" />
-            <element signature="e#385#386#0" expanded="false" />
-            <element signature="e#429#430#0" expanded="false" />
-            <element signature="e#465#466#0" expanded="false" />
-            <element signature="e#498#499#0" expanded="false" />
-            <element signature="e#527#528#0" expanded="false" />
-            <element signature="e#571#572#0" expanded="false" />
-            <element signature="e#607#608#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/org/cloud/database/AddUser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="13" selection-start="283" selection-end="283" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="555">
+        <state line="7" column="0" selection-start="0" selection-end="970" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="555">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/cloud/connectToDatabase/ConnectToDataBase.java">
+    <entry file="file://$PROJECT_DIR$/src/org/cloud/database/CheckForUniqueUser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="41" selection-start="241" selection-end="241" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="525">
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/ae5f4158/66fbe116-2157-4f29-971a-f51f9b105a5b/finalProject..HISTORY">
-      <provider editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="150" />
-      </provider>
-      <provider selected="true" editor-type-id="com.intellij.persistence.database.editor.DatabaseTableFileEditorProvider">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/cloud/database/Authenticity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="50" selection-start="735" selection-end="735" vertical-scroll-proportion="0.0" vertical-offset="104" max-vertical-offset="720">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/cloud/database/AddFunction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="50" selection-start="172" selection-end="172" vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="225">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../LIB/ShineJ2EEFramework 3.0.1/shine3.0/src/org/j2os/shine/util/reflect/Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="127" column="12" selection-start="3738" selection-end="3738" vertical-scroll-proportion="0.0" vertical-offset="1610" max-vertical-offset="4680">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/cloud/fields/PHYSIC.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="0" selection-start="255" selection-end="255" vertical-scroll-proportion="0.35657686" vertical-offset="0" max-vertical-offset="631">
+        <state line="19" column="22" selection-start="576" selection-end="576" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="600">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/org/cloud/server/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="59" selection-start="306" selection-end="306" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="330">
+        <state line="7" column="17" selection-start="128" selection-end="132" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="330">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../LIB/ShineJ2EEFramework 3.0.1/shine3.0/src/org/j2os/shine/util/JavaCompiler.java">
+    <entry file="file://$PROJECT_DIR$/src/org/cloud/database/AddFunctionDetail.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="146" selection-start="1464" selection-end="1540" vertical-scroll-proportion="0.0" vertical-offset="304" max-vertical-offset="1050">
+        <state line="15" column="24" selection-start="0" selection-end="1028" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="540">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../LIB/ShineJ2EEFramework 3.0.1/shine3.0/src/org/j2os/shine/util/SystemRuntime.java">
+    <entry file="file://$PROJECT_DIR$/src/org/cloud/database/CheckForUniqueFunc.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="77" column="49" selection-start="2391" selection-end="2391" vertical-scroll-proportion="0.0" vertical-offset="722" max-vertical-offset="5130">
+        <state line="10" column="31" selection-start="0" selection-end="1052" vertical-scroll-proportion="0.0" vertical-offset="21" max-vertical-offset="615">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../LIB/ShineJ2EEFramework 3.0.1/shine3.0/src/org/j2os/shine/util/SystemRoot.java">
+    <entry file="file://$PROJECT_DIR$/src/org/cloud/database/ChangePassword.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="199" column="8" selection-start="5088" selection-end="5088" vertical-scroll-proportion="0.0" vertical-offset="2400" max-vertical-offset="3570">
+        <state line="14" column="26" selection-start="0" selection-end="727" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="480">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/cloud/database/GetHistory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="23" selection-start="0" selection-end="1374" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="765">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/domain/History.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="26" selection-start="0" selection-end="611" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="450">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/cloud/database/WriteHistory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="21" selection-start="466" selection-end="466" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="570">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/cloud/database/GetUsersList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="25" selection-start="0" selection-end="1336" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="690">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/domain/Users.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="18" selection-start="196" selection-end="196" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="555">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/cloud/connectToDatabase/ConnectToDataBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="0" selection-start="278" selection-end="278" vertical-scroll-proportion="0.36945814" vertical-offset="0" max-vertical-offset="609">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="67" selection-start="284" selection-end="1184" vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="1170">
+        <state line="33" column="72" selection-start="900" selection-end="900" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1200">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/cloud/compiler/ServerCompiler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="58" column="64" selection-start="1931" selection-end="1931" vertical-scroll-proportion="0.0" vertical-offset="569" max-vertical-offset="1380">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/cloud/fields/MATHEMATIC.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="5" selection-start="461" selection-end="461" vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="480">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="dbDummy://dbtable:/ae5f4158/66fbe116-2157-4f29-971a-f51f9b105a5b/finalProject..FUNCTIONS">
+      <provider selected="true" editor-type-id="com.intellij.persistence.database.editor.DatabaseTableFileEditorProvider">
+        <state />
+      </provider>
       <provider editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="180">
           <folding />
         </state>
       </provider>
-      <provider selected="true" editor-type-id="com.intellij.persistence.database.editor.DatabaseTableFileEditorProvider">
-        <state />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/cloud/fields/PHYSIC.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="5" selection-start="293" selection-end="293" vertical-scroll-proportion="0.0" vertical-offset="21" max-vertical-offset="390">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/cloud/compiler/ServerCompiler.java">
+    <entry file="file://$PROJECT_DIR$/src/org/cloud/fields/MATHEMATIC.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="2" selection-start="944" selection-end="944" vertical-scroll-proportion="0.5707472" vertical-offset="151" max-vertical-offset="1110">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state line="23" column="66" selection-start="457" selection-end="457" vertical-scroll-proportion="0.5484897" vertical-offset="0" max-vertical-offset="629">
+          <folding />
         </state>
       </provider>
     </entry>

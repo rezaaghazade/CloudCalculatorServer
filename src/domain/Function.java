@@ -6,7 +6,7 @@ import java.io.Serializable;
  * Created by reza on 7/24/14.
  */
 
-public class FieldTypeDTO implements Serializable{
+public class Function implements Serializable{
     public String funcName;
     public Integer argNum;
     public String fieldType;
@@ -59,6 +59,6 @@ public class FieldTypeDTO implements Serializable{
         return funcName+" "+funcPrototype+" "+argNum+" "+fieldType;
 
     }
-    public FieldTypeDTO() {
+    public Function() {
     }
 }

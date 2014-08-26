@@ -1,5 +1,4 @@
 package org.cloud.fields;
-
 /**
  * Created by reza on 7/23/14.
  */
@@ -21,7 +20,7 @@ public class MATHEMATIC {
     {
         return a*b;
     }
-public Double Cube(Double a)
-    {
-        return Math.pow(a,3);
-    }}
+
+public Double Mode(Double a,Double b)    {        return a%b;    }
+
+}

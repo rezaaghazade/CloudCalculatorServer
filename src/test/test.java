@@ -12,7 +12,9 @@ public class test{
 
     public static void main(String[] args)throws Exception{
 
-
+        String str="gholam reza rezaie";
+        System.out.println(str.replaceAll("gholam","GHOLAM"));
+/*
         try {
 
             String path=System.getProperty("java.home");
@@ -42,9 +44,10 @@ public class test{
         }catch (Exception e)
         {
             System.out.println(e.getMessage());
-        }
+        }*/
 
     }
+
 
 }
 
