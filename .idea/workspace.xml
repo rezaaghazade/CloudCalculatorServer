@@ -2,16 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="252d37fd-3d4c-4f4a-9a94-3d8b370d51f3" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/cloud/database/AddFunction.java" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/domain/FieldTypeDTO.java" afterPath="$PROJECT_DIR$/src/domain/Function.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/cloud/connectToDatabase/ConnectToDataBase.java" afterPath="$PROJECT_DIR$/src/org/cloud/connectToDatabase/ConnectToDataBase.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/cloud/database/GetFieldTypes.java" afterPath="$PROJECT_DIR$/src/org/cloud/database/GetFieldTypes.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/cloud/database/GetFunctionsDetail.java" afterPath="$PROJECT_DIR$/src/org/cloud/database/GetFunctionsDetail.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/cloud/database/GetUsersList.java" afterPath="$PROJECT_DIR$/src/org/cloud/database/GetUsersList.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/cloud/fields/MATHEMATIC.java" afterPath="$PROJECT_DIR$/src/org/cloud/fields/MATHEMATIC.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/cloud/fields/PHYSIC.java" afterPath="$PROJECT_DIR$/src/org/cloud/fields/PHYSIC.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/cloud/compiler/ServerCompiler.java" afterPath="$PROJECT_DIR$/src/org/cloud/compiler/ServerCompiler.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/test.java" afterPath="$PROJECT_DIR$/src/test/test.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="CloudCalculatorServer.iws" />
@@ -843,7 +833,7 @@
       <workItem from="1409049701143" duration="646000" />
       <workItem from="1409050910468" duration="5236000" />
       <workItem from="1409057682894" duration="174000" />
-      <workItem from="1409059640348" duration="1749000" />
+      <workItem from="1409059640348" duration="1768000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit&#10;">
       <created>1406110892632</created>
@@ -937,11 +927,15 @@
       <created>1408730147589</created>
       <updated>1408730147589</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Initial commit&#10;">
+      <created>1409061408206</created>
+      <updated>1409061408206</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="130806000" />
+    <option name="totallyTimeSpent" value="130825000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-3" width="1366" height="771" extended-state="6" />
